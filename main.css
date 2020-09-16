@@ -56,7 +56,6 @@ input[type='color'] {
 .workspace .inline {
   display: inline-block;
   text-align: center;
-  margin: 40px;
 
   padding: 16px;
 }
