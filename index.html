@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div class="workspace">
+      <div class="inline">
+        <input onchange="font()" type="range" id="font" />
+        <br />
+        <span class="fontsize">Aa</span>
+      </div>
+      <div class="inline">
+        <input
+          type="color"
+          name="stroke-color"
+          value="#ff0000"
+          id="stroke-color"
+        />
+      </div>
+      <div class="inline">
+        <input type="color" name="fill-color" value="#0000ff" id="fill-color" />
+      </div>
+      <div class="inline"><button onclick="newtext()">Text</button></div>
+    </div>
+
+    <div class="memes"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
